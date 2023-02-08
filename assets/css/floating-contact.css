@@ -1,0 +1,63 @@
+.floating-contact {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    background: rgb(24, 24, 24);
+    color: #fff;
+    margin: 1rem;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.floating-contact {
+    cursor: pointer;
+}
+
+.contact-form {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    background: transparent;
+    color: #fff;
+    margin: 1rem;
+    border-radius: 10px;
+    z-index: 90;
+    transition: all 0.3s ease;
+}
+
+.hide {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.show {
+    height: 60vh;
+    width: 40vw;
+    background: rgb(24, 24, 24);
+    transition: all 0.3s ease;
+}
+
+.invalid {
+    box-shadow: 0 0 0 0.25rem rgb(255 0 0 / 50%)
+}
+
+.valid-feedback,
+.invalid-feedback {
+    display: block;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* For mobile */
+@media only screen and (max-width: 668px) {
+    .show {
+        height: 70vh;
+        width: 90vw;
+    }
+}

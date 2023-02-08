@@ -1,0 +1,30 @@
+#cookieNotice {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    z-index: 1000;
+    padding: 20px;
+    width: 100%;
+}
+
+#closeIcon {
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.btn-wrap .btn {
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.btn-wrap .btn:hover,
+.btn-wrap .btn:active,
+.btn-wrap .btn:visited {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
